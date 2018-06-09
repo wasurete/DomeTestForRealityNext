@@ -1,0 +1,1045 @@
+fileFormatVersion: 2
+guid: 87ce04a8a3dca4149881e95c238230ee
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Joan:Head
+    100002: Joan:HeadTop_End
+    100004: Joan:Hips
+    100006: Joan:LeftArm
+    100008: Joan:LeftFoot
+    100010: Joan:LeftFootToeBase_End
+    100012: Joan:LeftForeArm
+    100014: Joan:LeftHand
+    100016: Joan:LeftHandIndex1
+    100018: Joan:LeftHandIndex2
+    100020: Joan:LeftHandIndex3
+    100022: Joan:LeftHandIndex4
+    100024: Joan:LeftHandMiddle1
+    100026: Joan:LeftHandMiddle2
+    100028: Joan:LeftHandMiddle3
+    100030: Joan:LeftHandMiddle4
+    100032: Joan:LeftHandPinky1
+    100034: Joan:LeftHandPinky2
+    100036: Joan:LeftHandPinky3
+    100038: Joan:LeftHandPinky4
+    100040: Joan:LeftHandRing1
+    100042: Joan:LeftHandRing2
+    100044: Joan:LeftHandRing3
+    100046: Joan:LeftHandRing4
+    100048: Joan:LeftHandThumb1
+    100050: Joan:LeftHandThumb2
+    100052: Joan:LeftHandThumb3
+    100054: Joan:LeftHandThumb4
+    100056: Joan:LeftLeg
+    100058: Joan:LeftShoulder
+    100060: Joan:LeftToeBase
+    100062: Joan:LeftUpLeg
+    100064: Joan:Neck
+    100066: Joan:Neck1
+    100068: Joan:RightArm
+    100070: Joan:RightFoot
+    100072: Joan:RightFootToeBase_End
+    100074: Joan:RightForeArm
+    100076: Joan:RightHand
+    100078: Joan:RightHandIndex1
+    100080: Joan:RightHandIndex2
+    100082: Joan:RightHandIndex3
+    100084: Joan:RightHandIndex4
+    100086: Joan:RightHandMiddle1
+    100088: Joan:RightHandMiddle2
+    100090: Joan:RightHandMiddle3
+    100092: Joan:RightHandMiddle4
+    100094: Joan:RightHandPinky1
+    100096: Joan:RightHandPinky2
+    100098: Joan:RightHandPinky3
+    100100: Joan:RightHandPinky4
+    100102: Joan:RightHandRing1
+    100104: Joan:RightHandRing2
+    100106: Joan:RightHandRing3
+    100108: Joan:RightHandRing4
+    100110: Joan:RightHandThumb1
+    100112: Joan:RightHandThumb2
+    100114: Joan:RightHandThumb3
+    100116: Joan:RightHandThumb4
+    100118: Joan:RightLeg
+    100120: Joan:RightShoulder
+    100122: Joan:RightToeBase
+    100124: Joan:RightUpLeg
+    100126: Joan:Spine
+    100128: Joan:Spine1
+    100130: Joan:Spine2
+    100132: Joan_Mesh
+    100134: //RootNode
+    400000: Joan:Head
+    400002: Joan:HeadTop_End
+    400004: Joan:Hips
+    400006: Joan:LeftArm
+    400008: Joan:LeftFoot
+    400010: Joan:LeftFootToeBase_End
+    400012: Joan:LeftForeArm
+    400014: Joan:LeftHand
+    400016: Joan:LeftHandIndex1
+    400018: Joan:LeftHandIndex2
+    400020: Joan:LeftHandIndex3
+    400022: Joan:LeftHandIndex4
+    400024: Joan:LeftHandMiddle1
+    400026: Joan:LeftHandMiddle2
+    400028: Joan:LeftHandMiddle3
+    400030: Joan:LeftHandMiddle4
+    400032: Joan:LeftHandPinky1
+    400034: Joan:LeftHandPinky2
+    400036: Joan:LeftHandPinky3
+    400038: Joan:LeftHandPinky4
+    400040: Joan:LeftHandRing1
+    400042: Joan:LeftHandRing2
+    400044: Joan:LeftHandRing3
+    400046: Joan:LeftHandRing4
+    400048: Joan:LeftHandThumb1
+    400050: Joan:LeftHandThumb2
+    400052: Joan:LeftHandThumb3
+    400054: Joan:LeftHandThumb4
+    400056: Joan:LeftLeg
+    400058: Joan:LeftShoulder
+    400060: Joan:LeftToeBase
+    400062: Joan:LeftUpLeg
+    400064: Joan:Neck
+    400066: Joan:Neck1
+    400068: Joan:RightArm
+    400070: Joan:RightFoot
+    400072: Joan:RightFootToeBase_End
+    400074: Joan:RightForeArm
+    400076: Joan:RightHand
+    400078: Joan:RightHandIndex1
+    400080: Joan:RightHandIndex2
+    400082: Joan:RightHandIndex3
+    400084: Joan:RightHandIndex4
+    400086: Joan:RightHandMiddle1
+    400088: Joan:RightHandMiddle2
+    400090: Joan:RightHandMiddle3
+    400092: Joan:RightHandMiddle4
+    400094: Joan:RightHandPinky1
+    400096: Joan:RightHandPinky2
+    400098: Joan:RightHandPinky3
+    400100: Joan:RightHandPinky4
+    400102: Joan:RightHandRing1
+    400104: Joan:RightHandRing2
+    400106: Joan:RightHandRing3
+    400108: Joan:RightHandRing4
+    400110: Joan:RightHandThumb1
+    400112: Joan:RightHandThumb2
+    400114: Joan:RightHandThumb3
+    400116: Joan:RightHandThumb4
+    400118: Joan:RightLeg
+    400120: Joan:RightShoulder
+    400122: Joan:RightToeBase
+    400124: Joan:RightUpLeg
+    400126: Joan:Spine
+    400128: Joan:Spine1
+    400130: Joan:Spine2
+    400132: Joan_Mesh
+    400134: //RootNode
+    2100000: No Name
+    4300000: Joan_Mesh
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: Joan_Mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Joan:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:Neck1
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:Head
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joan:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Mixamo-Joan_InjuredWalkAnimation(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan_Mesh
+      parentName: Mixamo-Joan_InjuredWalkAnimation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:Hips
+      parentName: Mixamo-Joan_InjuredWalkAnimation(Clone)
+      position: {x: 0, y: 0.99169147, z: 0.15960513}
+      rotation: {x: 1.3552528e-16, y: 0.000000023283064, z: -3.155444e-24, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 0.9999999}
+    - name: Joan:Spine
+      parentName: Joan:Hips
+      position: {x: 2.646978e-25, y: 0.092263184, z: 0.015771331}
+      rotation: {x: 0.000000011641534, y: -0.000000034924597, z: 4.065759e-16, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: Joan:Spine1
+      parentName: Joan:Spine
+      position: {x: -0, y: 0.16254029, z: -0.0016560555}
+      rotation: {x: -0.000000011641534, y: -0, z: -5.293956e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Joan:Spine2
+      parentName: Joan:Spine1
+      position: {x: -0, y: 0.13639648, z: -0.01292305}
+      rotation: {x: -0, y: 0.000000023283066, z: -0.000000005820767, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Joan:Neck
+      parentName: Joan:Spine2
+      position: {x: -0, y: 0.13877441, z: -0.043541867}
+      rotation: {x: 0.000000011641532, y: -0.000000011641534, z: 0.000000005820767,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Joan:Neck1
+      parentName: Joan:Neck
+      position: {x: -0, y: 0.04340027, z: 0.009268952}
+      rotation: {x: -0.000000011641532, y: 0.000000011641532, z: 0.000000002910383,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Joan:Head
+      parentName: Joan:Neck1
+      position: {x: -1.0587912e-24, y: 0.04026611, z: 0.008585205}
+      rotation: {x: -0.000000011641534, y: -0.000000023283064, z: -0.0000000014551916,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Joan:HeadTop_End
+      parentName: Joan:Head
+      position: {x: -5.1704583e-18, y: 0.17886597, z: 0.0012312889}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:LeftShoulder
+      parentName: Joan:Spine2
+      position: {x: -0.06144226, y: 0.10187011, z: -0.037932433}
+      rotation: {x: -0.00000001164153, y: -0.000000023283066, z: 0.0000000058207665,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:LeftArm
+      parentName: Joan:LeftShoulder
+      position: {x: -0.09019056, y: -0.011130053, z: -0.017934687}
+      rotation: {x: 0.0000000116415295, y: -0.0000000116415375, z: 0.000000005820767,
+        w: 1}
+      scale: {x: 0.9999994, y: 1.0000007, z: 1}
+    - name: Joan:LeftForeArm
+      parentName: Joan:LeftArm
+      position: {x: -0.2768701, y: 0, z: 0}
+      rotation: {x: -0.000000005820765, y: 0.00000002328307, z: -0.000000011641532,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
+    - name: Joan:LeftHand
+      parentName: Joan:LeftForeArm
+      position: {x: -0.27873778, y: 0, z: 0}
+      rotation: {x: 0.00000004074536, y: 0.000000023283066, z: -0.000000017462298,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: Joan:LeftHandThumb1
+      parentName: Joan:LeftHand
+      position: {x: -0.02517768, y: -0.009366607, z: 0.025136683}
+      rotation: {x: -0.061311424, y: 0.04160997, z: -0.05300325, w: 0.9958415}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000002}
+    - name: Joan:LeftHandThumb2
+      parentName: Joan:LeftHandThumb1
+      position: {x: -0.033088524, y: -0.011492302, z: 0.029253135}
+      rotation: {x: 0.01313217, y: 0.055946413, z: 0.036832657, w: 0.9976678}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000002}
+    - name: Joan:LeftHandThumb3
+      parentName: Joan:LeftHandThumb2
+      position: {x: -0.028279377, y: -0.0045737503, z: 0.017029954}
+      rotation: {x: 0.00017322875, y: -0.031551056, z: -0.008186091, w: 0.9994686}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: Joan:LeftHandThumb4
+      parentName: Joan:LeftHandThumb3
+      position: {x: -0.03152093, y: -0.006866996, z: 0.025800489}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:LeftHandMiddle1
+      parentName: Joan:LeftHand
+      position: {x: -0.10194804, y: 0.007181669, z: 0.009781615}
+      rotation: {x: -0.000000034924593, y: -0.00000005820766, z: 0.000000023283066,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
+    - name: Joan:LeftHandMiddle2
+      parentName: Joan:LeftHandMiddle1
+      position: {x: -0.039601438, y: -0.00047074724, z: 0.00064152275}
+      rotation: {x: -0, y: 0.000000023283064, z: 0.000000011641533, w: 1}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
+    - name: Joan:LeftHandMiddle3
+      parentName: Joan:LeftHandMiddle2
+      position: {x: -0.028600143, y: -0.002261175, z: 0.000055149605}
+      rotation: {x: -0.000017091232, y: 0.0012467537, z: 0.042279914, w: 0.99910504}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000002}
+    - name: Joan:LeftHandMiddle4
+      parentName: Joan:LeftHandMiddle3
+      position: {x: -0.019995073, y: 0.00169815, z: -0.00005813449}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:LeftHandIndex1
+      parentName: Joan:LeftHand
+      position: {x: -0.1007241, y: 0.0048958696, z: 0.027610935}
+      rotation: {x: -0.000000011641523, y: -0.0000000349246, z: -0.000000023283064,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Joan:LeftHandIndex2
+      parentName: Joan:LeftHandIndex1
+      position: {x: -0.037340894, y: 3.847191e-11, z: 0.0005125244}
+      rotation: {x: -0.000000058207668, y: 0.000000023283068, z: 0.0000000698492,
+        w: 1}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000004}
+    - name: Joan:LeftHandIndex3
+      parentName: Joan:LeftHandIndex2
+      position: {x: -0.028737163, y: -0.0013641473, z: 2.220446e-18}
+      rotation: {x: 0.00005024405, y: -0.001057023, z: 0.051732384, w: 0.99866045}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000004}
+    - name: Joan:LeftHandIndex4
+      parentName: Joan:LeftHandIndex3
+      position: {x: -0.019371964, y: 0.002616176, z: 0.000072233735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:LeftHandRing1
+      parentName: Joan:LeftHand
+      position: {x: -0.099302255, y: 0.0059195296, z: -0.009586181}
+      rotation: {x: -0.000000023283063, y: 0.00000001164153, z: 0.000000034924597,
+        w: 1}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: Joan:LeftHandRing2
+      parentName: Joan:LeftHandRing1
+      position: {x: -0.038645092, y: -0.0019895025, z: -0.00014745106}
+      rotation: {x: -0.00000005820766, y: -0.00000002328306, z: -2.7105052e-16, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: Joan:LeftHandRing3
+      parentName: Joan:LeftHandRing2
+      position: {x: -0.029119985, y: -0.001348519, z: -0.0002840692}
+      rotation: {x: 0.000000023283071, y: 0.000000005820768, z: -0.000000023283071,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Joan:LeftHandRing4
+      parentName: Joan:LeftHandRing3
+      position: {x: -0.020833196, y: 0.0006301085, z: -0.00019996734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:LeftHandPinky1
+      parentName: Joan:LeftHand
+      position: {x: -0.096779995, y: -0.0011913758, z: -0.025525266}
+      rotation: {x: -0.00000004656613, y: -0.000000023283064, z: 0.00000004656613,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+    - name: Joan:LeftHandPinky2
+      parentName: Joan:LeftHandPinky1
+      position: {x: -0.030938145, y: -0.0007621263, z: 0.00016794243}
+      rotation: {x: 0.000000011641536, y: -0.000000011641532, z: -0.000000023283066,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Joan:LeftHandPinky3
+      parentName: Joan:LeftHandPinky2
+      position: {x: -0.027224889, y: -0.00064053317, z: 0.00023157065}
+      rotation: {x: 0.00013739943, y: 0.0027688276, z: 0.023811793, w: 0.99971265}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1.0000001}
+    - name: Joan:LeftHandPinky4
+      parentName: Joan:LeftHandPinky3
+      position: {x: -0.017282737, y: 0.0018108484, z: -0.0001108392}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:RightShoulder
+      parentName: Joan:Spine2
+      position: {x: 0.061401974, y: 0.10187011, z: -0.037932433}
+      rotation: {x: -0.000000011641532, y: -0.0000000174623, z: -0.0000000043655746,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Joan:RightArm
+      parentName: Joan:RightShoulder
+      position: {x: 0.09022863, y: -0.011130053, z: -0.017934687}
+      rotation: {x: 0.000000034924597, y: 0.000000040745366, z: 0.000000010186341,
+        w: 1}
+      scale: {x: 0.9999995, y: 1.000001, z: 1.0000001}
+    - name: Joan:RightForeArm
+      parentName: Joan:RightArm
+      position: {x: 0.2768701, y: 0, z: 0}
+      rotation: {x: -0.000000011641532, y: -0.0000000349246, z: 1.5730689e-15, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: Joan:RightHand
+      parentName: Joan:RightForeArm
+      position: {x: 0.27873778, y: 0, z: 0}
+      rotation: {x: 1.7763568e-15, y: -0, z: -5.293956e-23, w: 1}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000006}
+    - name: Joan:RightHandThumb1
+      parentName: Joan:RightHand
+      position: {x: 0.025177661, y: -0.00936667, z: 0.025136683}
+      rotation: {x: -0.061311968, y: -0.041610554, z: 0.053003713, w: 0.9958414}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: Joan:RightHandThumb2
+      parentName: Joan:RightHandThumb1
+      position: {x: 0.033088524, y: -0.011492302, z: 0.029253135}
+      rotation: {x: 0.013132069, y: -0.05594656, z: -0.03683272, w: 0.9976678}
+      scale: {x: 0.99999964, y: 0.9999999, z: 0.99999976}
+    - name: Joan:RightHandThumb3
+      parentName: Joan:RightHandThumb2
+      position: {x: 0.028279377, y: -0.0045737503, z: 0.017029954}
+      rotation: {x: -0.00061441114, y: 0.04120264, z: 0.012086282, w: 0.99907756}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000006}
+    - name: Joan:RightHandThumb4
+      parentName: Joan:RightHandThumb3
+      position: {x: 0.029963681, y: -0.007021246, z: 0.025459027}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:RightHandIndex1
+      parentName: Joan:RightHand
+      position: {x: 0.100724086, y: 0.0048958063, z: 0.027610935}
+      rotation: {x: -0.000000011641534, y: -0.000000034924593, z: -0.000000023283064,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000001}
+    - name: Joan:RightHandIndex2
+      parentName: Joan:RightHandIndex1
+      position: {x: 0.037340894, y: 3.847191e-11, z: 0.0005125244}
+      rotation: {x: 0.000000014551919, y: 0.00000004656612, z: 0.000000040745363,
+        w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Joan:RightHandIndex3
+      parentName: Joan:RightHandIndex2
+      position: {x: 0.028737163, y: -0.0013641473, z: 2.220446e-18}
+      rotation: {x: 0.00016508141, y: 0.0034779625, z: -0.01949493, w: 0.9998039}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000001}
+    - name: Joan:RightHandIndex4
+      parentName: Joan:RightHandIndex3
+      position: {x: 0.019039625, y: 0.0013644394, z: 0.0004046453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:RightHandMiddle1
+      parentName: Joan:RightHand
+      position: {x: 0.10194802, y: 0.0071816063, z: 0.009781615}
+      rotation: {x: -0.000000011641534, y: -0.00000003201421, z: 2.637865e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: Joan:RightHandMiddle2
+      parentName: Joan:RightHandMiddle1
+      position: {x: 0.039601438, y: -0.00047074724, z: 0.00064152275}
+      rotation: {x: 0.000000030559026, y: 0.000000020372678, z: 0.0000000058207643,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: Joan:RightHandMiddle3
+      parentName: Joan:RightHandMiddle2
+      position: {x: 0.028600143, y: -0.002261175, z: 0.000055149605}
+      rotation: {x: 0.0000024876736, y: -0.00018698125, z: -0.008977285, w: 0.9999597}
+      scale: {x: 1.0000002, y: 0.99999964, z: 0.9999999}
+    - name: Joan:RightHandMiddle4
+      parentName: Joan:RightHandMiddle3
+      position: {x: 0.020956457, y: 0.00044641382, z: -0.000003400336}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:RightHandRing1
+      parentName: Joan:RightHand
+      position: {x: 0.09930223, y: 0.0059194663, z: -0.009586181}
+      rotation: {x: -5.3290705e-15, y: -0.000000011641532, z: -0.00000004656612, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Joan:RightHandRing2
+      parentName: Joan:RightHandRing1
+      position: {x: 0.038645092, y: -0.0019895025, z: -0.00014745106}
+      rotation: {x: 0.00000001600711, y: 0.000000023283064, z: 0.000000052386888,
+        w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Joan:RightHandRing3
+      parentName: Joan:RightHandRing2
+      position: {x: 0.029119985, y: -0.001348519, z: -0.0002840692}
+      rotation: {x: 0.000060029022, y: 0.0042536627, z: -0.014036971, w: 0.9998925}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Joan:RightHandRing4
+      parentName: Joan:RightHandRing3
+      position: {x: 0.021593438, y: 0.001297564, z: 0.00048559456}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:RightHandPinky1
+      parentName: Joan:RightHand
+      position: {x: 0.09677997, y: -0.001191439, z: -0.025525266}
+      rotation: {x: -0.000000023283066, y: 0.000000011641536, z: 0.000000023283068,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000002}
+    - name: Joan:RightHandPinky2
+      parentName: Joan:RightHandPinky1
+      position: {x: 0.030938145, y: -0.0007621263, z: 0.00016794243}
+      rotation: {x: 0.000000016007105, y: -0.000000023283068, z: -0.000000011641534,
+        w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: Joan:RightHandPinky3
+      parentName: Joan:RightHandPinky2
+      position: {x: 0.027224889, y: -0.00064053317, z: 0.00023157065}
+      rotation: {x: 0.00023660138, y: 0.0050327224, z: -0.013893897, w: 0.9998908}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: Joan:RightHandPinky4
+      parentName: Joan:RightHandPinky3
+      position: {x: 0.017246874, y: 0.0014029515, z: 0.0008018882}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:LeftUpLeg
+      parentName: Joan:Hips
+      position: {x: -0.09633789, y: -0.032732543, z: -0.000000007152557}
+      rotation: {x: -2.3716925e-16, y: -0.00000001164153, z: 0.000000005820767, w: 1}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: Joan:LeftLeg
+      parentName: Joan:LeftUpLeg
+      position: {x: -0, y: -0.46725097, z: -0.017299652}
+      rotation: {x: -0.000000023283064, y: -0.0000000174623, z: -0.0000000058207674,
+        w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: Joan:LeftFoot
+      parentName: Joan:LeftLeg
+      position: {x: -0.00012604713, y: -0.34194335, z: -0.008476867}
+      rotation: {x: 0.00000009313226, y: 0.000000005093171, z: 7.275955e-10, w: 1}
+      scale: {x: 0.99999976, y: 1, z: 1.0000002}
+    - name: Joan:LeftToeBase
+      parentName: Joan:LeftFoot
+      position: {x: 0.0018328666, y: -0.12183356, z: 0.082822636}
+      rotation: {x: -0.00000004656613, y: 5.4569593e-10, z: -7.275956e-10, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: Joan:LeftFootToeBase_End
+      parentName: Joan:LeftToeBase
+      position: {x: -0, y: -0.00009729385, z: 0.096}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joan:RightUpLeg
+      parentName: Joan:Hips
+      position: {x: 0.09633789, y: -0.032732543, z: -0.000000007152557}
+      rotation: {x: -0.0000000058207656, y: -0.000000046566125, z: -0.00000001164153,
+        w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Joan:RightLeg
+      parentName: Joan:RightUpLeg
+      position: {x: -0, y: -0.46725097, z: -0.017299652}
+      rotation: {x: 0.0000000058207656, y: 0.00000006984919, z: -1.6408316e-15, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Joan:RightFoot
+      parentName: Joan:RightLeg
+      position: {x: -0.00012606621, y: -0.34194335, z: -0.008476867}
+      rotation: {x: 0.000000005820764, y: -0.000000046566132, z: 0.000000034924597,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Joan:RightToeBase
+      parentName: Joan:RightFoot
+      position: {x: 0.0018330956, y: -0.12183356, z: 0.082822636}
+      rotation: {x: -0.0000000058207656, y: 0.000000011641529, z: -0.000000034924597,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Joan:RightFootToeBase_End
+      parentName: Joan:RightToeBase
+      position: {x: -0.00003194809, y: -0.00009729385, z: 0.096}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
