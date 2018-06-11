@@ -4,7 +4,6 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
-VR_Sequence
 
 # Visual Studio cache directory
 .vs/
