@@ -1476,8 +1476,6 @@ MonoBehaviour:
   - {fileID: 1084353172354232, guid: d7a12c2663b16234dab9bb65ae8a675a, type: 2}
   - {fileID: 1084353172354232, guid: d7a12c2663b16234dab9bb65ae8a675a, type: 2}
   - {fileID: 1084353172354232, guid: d7a12c2663b16234dab9bb65ae8a675a, type: 2}
-  drawerParent: {fileID: 0}
-  itemPosition: {fileID: 0}
   unitAngle: 0
 --- !u!114 &114991678348292110
 MonoBehaviour:

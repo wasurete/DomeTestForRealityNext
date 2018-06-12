@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4984685654120880}
   - component: {fileID: 135615485999732780}
   - component: {fileID: 54594257917710934}
+  - component: {fileID: 114316315726049592}
+  - component: {fileID: 114605488090149288}
   m_Layer: 0
   m_Name: SkyBox03
   m_TagString: Pickable
@@ -38,8 +40,6 @@ GameObject:
   - component: {fileID: 4963398974146036}
   - component: {fileID: 33274323844411878}
   - component: {fileID: 23175270000251296}
-  - component: {fileID: 135370540230036878}
-  - component: {fileID: 114241663954820062}
   m_Layer: 0
   m_Name: obj
   m_TagString: Pickable
@@ -57,7 +57,6 @@ GameObject:
   - component: {fileID: 4640581112380682}
   - component: {fileID: 33542098128261060}
   - component: {fileID: 23508957618285290}
-  - component: {fileID: 135527349291831336}
   m_Layer: 0
   m_Name: Selection
   m_TagString: Pickable
@@ -97,7 +96,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1084353172354232}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -205,46 +204,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114241663954820062
+--- !u!114 &114316315726049592
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1240193763520524}
+  m_GameObject: {fileID: 1084353172354232}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc80d7438730f0c46a65f0b12a4a8ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectedObj: {fileID: 1358473377981146}
-  paretObj: {fileID: 1084353172354232}
   controller: {fileID: 0}
   grabTime: 0.25
   menuItem: 1
---- !u!135 &135370540230036878
-SphereCollider:
+--- !u!114 &114605488090149288
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1240193763520524}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_GameObject: {fileID: 1084353172354232}
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &135527349291831336
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1358473377981146}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d9a1c8cd1d91442b891243db936f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skyBoxMaterial: {fileID: 2100000, guid: 2300aa3437a63c74e9fd1d14fb7da684, type: 2}
 --- !u!135 &135615485999732780
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -253,7 +239,7 @@ SphereCollider:
   m_GameObject: {fileID: 1084353172354232}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.05
+  m_Radius: 0.1
   m_Center: {x: 0, y: 0.05, z: 0}

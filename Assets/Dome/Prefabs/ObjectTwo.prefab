@@ -21,8 +21,6 @@ GameObject:
   - component: {fileID: 4636315739788156}
   - component: {fileID: 33713047603434766}
   - component: {fileID: 23414078284307794}
-  - component: {fileID: 65430859121580092}
-  - component: {fileID: 114888058214845668}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Pickable
@@ -58,6 +56,7 @@ GameObject:
   - component: {fileID: 4634662619607228}
   - component: {fileID: 65916731630201192}
   - component: {fileID: 54962985561725248}
+  - component: {fileID: 114681684222100718}
   m_Layer: 0
   m_Name: ObjectTwo
   m_TagString: Pickable
@@ -71,7 +70,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1437210404326074}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -217,18 +216,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65430859121580092
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1089031146870804}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65916731630201192
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -237,22 +224,22 @@ BoxCollider:
   m_GameObject: {fileID: 1437210404326074}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0.05, z: 0}
---- !u!114 &114888058214845668
+--- !u!114 &114681684222100718
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1089031146870804}
+  m_GameObject: {fileID: 1437210404326074}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc80d7438730f0c46a65f0b12a4a8ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectedObj: {fileID: 1300588410111580}
-  paretObj: {fileID: 1437210404326074}
   controller: {fileID: 0}
   grabTime: 0.25
+  menuItem: 1

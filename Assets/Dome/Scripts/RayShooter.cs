@@ -11,6 +11,8 @@ public class RayShooter : MonoBehaviour
     GameObject obj;         //object been hit by Raycast
     public GameObject holder;
     public bool isHolding;
+    public LayerMask rayLayermask;
+
     void Update()
     {
         Ray ray = new Ray(transform.position, transform.up * distance);
@@ -20,7 +22,7 @@ public class RayShooter : MonoBehaviour
         if (Input.GetButton("Fire1"))
         {
             GetComponent<LineRenderer>().enabled = true;
-            if (Physics.Raycast(ray, out hit, distance))
+            if (Physics.Raycast(ray, out hit, distance,rayLayermask))
             {
                 //checking if ray is hitting a new object
                 if (obj != null && obj != hit.collider.gameObject)
@@ -65,6 +67,10 @@ public class RayShooter : MonoBehaviour
                 if (obj.tag == "Pickable")
                 {
                     PickableObj pickableObj = obj.GetComponent<PickableObj>();
+                    if (pickableObj == null)
+                    {
+                        pickableObj = obj.GetComponent<PickableObj>();
+                    }
                     pObj = pickableObj;
                     pickableObj.FocusOn();
                 }
@@ -121,6 +127,10 @@ public class RayShooter : MonoBehaviour
                 Debug.Log("release");
                 isHolding = false;
             }
+        }
+        if (holder.transform.childCount == 0)
+        {
+            isHolding = false;
         }
     }
 }

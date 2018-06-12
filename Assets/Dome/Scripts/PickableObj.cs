@@ -5,7 +5,7 @@ using UnityEngine;
 public class PickableObj : MonoBehaviour
 {
     public GameObject selectedObj;
-    public GameObject paretObj;
+    //public GameObject paretObj;
     public GameObject controller;
     public float grabTime = 0.25f;
     public bool menuItem = true;
@@ -16,25 +16,28 @@ public class PickableObj : MonoBehaviour
     }
     public void FocusOn()
     {
-        selectedObj.SetActive(true);
+        if (selectedObj != null)
+            selectedObj.SetActive(true);
     }
     public void FocusOff()
     {
-        selectedObj.SetActive(false);
+        if (selectedObj != null)
+            selectedObj.SetActive(false);
     }
-    //Duplicate to been grabbed
     public void Grab()
     {
         GameObject item;
+        //Duplicate and grab
         if (menuItem)
         {
             menuItem = false;
-            item = Instantiate(paretObj, transform.position, Quaternion.identity);
+            item = Instantiate(this.gameObject, transform.position, transform.rotation);
             menuItem = true;
         }
+        //Grab itself
         else
         {
-            item = this.transform.parent.gameObject;
+            item = this.gameObject;
         }
         item.transform.parent = controller.transform;
         item.GetComponent<Rigidbody>().isKinematic = true;

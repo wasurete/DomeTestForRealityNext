@@ -18,5 +18,15 @@ public class PlayerMove : MonoBehaviour {
             transform.Translate(thrust);
             transform.Translate(Input.GetAxis("Horizontal")*mov, 0, 0);
         }
-	}
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Debug.Log("Down");
+            //transform.position -= new Vector3(0, 1.2f, 0);
+            iTween.MoveAdd(this.gameObject, new Vector3(0, -1f, 0), 0.2f);
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            iTween.MoveAdd(this.gameObject, new Vector3(0, 1f, 0), 0.4f);
+        }
+    }
 }

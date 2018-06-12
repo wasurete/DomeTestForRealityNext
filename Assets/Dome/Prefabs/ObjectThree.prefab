@@ -39,8 +39,6 @@ GameObject:
   - component: {fileID: 4506056102362176}
   - component: {fileID: 33988666402891686}
   - component: {fileID: 23691220093625318}
-  - component: {fileID: 136531300383080108}
-  - component: {fileID: 114965040462112702}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Pickable
@@ -58,6 +56,7 @@ GameObject:
   - component: {fileID: 4931526745490178}
   - component: {fileID: 136027417120939728}
   - component: {fileID: 54185387689229676}
+  - component: {fileID: 114921650402535048}
   m_Layer: 0
   m_Name: ObjectThree
   m_TagString: Pickable
@@ -97,7 +96,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915400739101330}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -205,21 +204,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114965040462112702
+--- !u!114 &114921650402535048
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1809857658435184}
+  m_GameObject: {fileID: 1915400739101330}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc80d7438730f0c46a65f0b12a4a8ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectedObj: {fileID: 1791364081662640}
-  paretObj: {fileID: 1915400739101330}
   controller: {fileID: 0}
   grabTime: 0.25
+  menuItem: 1
 --- !u!136 &136027417120939728
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -228,7 +227,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1915400739101330}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.05
   m_Height: 0.05
   m_Direction: 1
@@ -242,19 +241,6 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!136 &136531300383080108
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1809857658435184}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
